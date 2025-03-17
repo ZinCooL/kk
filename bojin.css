@@ -66,8 +66,8 @@
 
 .treatment-list li {
     background: white;
-    margin: 15px 0;
-    padding: 20px;
+    margin: 12px 0;
+    padding: 15px 20px;
     border-radius: 15px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     position: relative;
@@ -78,14 +78,15 @@
 .treatment-list .content-wrapper {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 10px;
 }
 
 .treatment-list .icon {
-    width: 50px;
-    height: 50px;
-    min-width: 24px;
+    width: 20px;
+    height: 20px;
+    min-width: 20px;
     object-fit: contain;
+    margin-top: -2px;
 }
 
 .treatment-list li:hover {
@@ -105,13 +106,14 @@
 .treatment-list h4 {
     color: var(--primary-color);
     margin: 0 0 5px 0;
-    font-size: 1.2rem;
+    font-size: 24px;
 }
 
 .treatment-list p {
     color: var(--secondary-color);
     margin: 0;
-    line-height: 1.5;
+    line-height: 1.6;
+    font-size: 18px;
 }
 
 /* Section Content Styles */
@@ -199,7 +201,7 @@
     }
 
     .treatment-list li {
-        padding: 15px 15px 15px 35px;
+        padding: 12px 15px 12px 35px;
         text-decoration: none;
     }
 
@@ -208,11 +210,11 @@
     }
 
     .treatment-list h4 {
-        font-size: 1.1rem;
+        font-size: 20px;
     }
 
     .treatment-list p {
-        font-size: 0.95rem;
+        font-size: 16px;
         text-align: left;
     }
 
@@ -223,13 +225,18 @@
     .what h2, .helps h2, .types h2{
         font-size: 1.5rem;
         text-align: center;
-        
+    }
+
+    .content-wrapper{
+        margin-bottom: 10px;
+        gap: 8px;
     }
 
     .treatment-list .icon {
         width: 80px;
         height: 80px;
         min-width: 24px;
+        padding-right: -60px;
         object-fit: contain;
     }
 

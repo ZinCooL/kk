@@ -36,6 +36,8 @@ header {
     border-bottom: 1px solid rgba(118, 92, 72, 0.15);
     padding: 15px 0;
     
+    
+    
 
 }
 
@@ -349,6 +351,7 @@ footer {
         padding: 0 15px;
     }
 
+    }
     .logo-link {
         font-size: 1.2rem;
     }
@@ -367,14 +370,17 @@ footer {
 
     .background-title {
         font-size: 1.5rem;
+        margin-top: 10px;
     }
 
     .background-content {
         font-size: 15px;
-
-    
+        margin-left: 19px;
     }
 
+    .who-description{
+        margin-left: 19px;
+    }
     .certificates-grid {
         grid-template-columns: repeat(2, 1fr); /* 2 columns specifically for iPhone 14 Pro Max */
         gap: 15px;
@@ -403,7 +409,7 @@ footer {
     .whatsapp-text {
         font-size: 13px;
     }
-}
+
 
 /* Small mobile devices */
 @media (max-width: 390px) {
@@ -465,10 +471,11 @@ footer {
         width: 100%;
         justify-content: center;
         gap: 25px;
+        margin-top: 10px;
     }
 
     .nav-links a {
-        font-size: 0.9rem;
+        font-size: 17px;
         padding: 5px 10px;
     }
 
@@ -480,7 +487,7 @@ footer {
     .background-title {
         font-size: 1.5rem;
         padding: 0 15px;
-        margin-bottom: 25px;
+        margin-top: 20px;
         text-align: right;
         line-height: 1.3;
     }
