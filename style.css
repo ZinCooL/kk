@@ -193,11 +193,7 @@ header {
     padding: 0 15px;
     margin-top: 15px;
 
-    background-color: #f8f5f1;
-    border-radius: 15px;
-    padding: 25px;
-    margin: 15px 0;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+
 }
 
 /* Footer Styles */
@@ -564,6 +560,10 @@ footer {
 
     .whatsapp-text {
         font-size: 13px;
+    }
+
+    footer{
+        height: 550px;
     }
 }
 

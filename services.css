@@ -120,6 +120,9 @@
     .price-list-button{
         padding: 10px 40px;
 }
+footer{
+    height: 250px;
+}
 }
 
 @media (max-width: 390px) {

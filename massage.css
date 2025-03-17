@@ -242,6 +242,10 @@
         font-size: 1rem;
         line-height: 1.6;
     }
+
+    footer{
+        height: 250px;
+    }
 }
 
 @media (max-width: 390px) {
