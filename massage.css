@@ -1,0 +1,269 @@
+/* BoJin Page Specific Styles */
+.services-hero {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.services-title {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    text-align: center;
+    padding: 120px 20px 40px 20px;
+    margin: 0;
+    border-bottom: 1px solid var(--primary-color);
+}
+
+/* Content Grid Layout */
+.bojin-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.bojin-card {
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.bojin-card:hover {
+    transform: translateY(-5px);
+}
+
+.bojin-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.bojin-card h3 {
+    color: var(--primary-color);
+    padding: 15px;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.bojin-card p {
+    color: var(--secondary-color);
+    padding: 0 15px 15px;
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* Treatment List Styles */
+.treatment-list {
+    list-style: none;
+    padding: 0;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+
+.treatment-list li {
+    background: white;
+    margin: 15px 0;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    padding-left: 40px;
+    transition: transform 0.3s ease;
+}
+
+.treatment-list .content-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.treatment-list .icon {
+    width: 50px;
+    height: 50px;
+    min-width: 24px;
+    object-fit: contain;
+}
+
+.treatment-list li:hover {
+    transform: translateX(10px);
+}
+
+.treatment-list li::before {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 24px;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.treatment-list h4 {
+    color: var(--primary-color);
+    margin: 0 0 5px 0;
+    font-size: 1.2rem;
+}
+
+.treatment-list p {
+    color: var(--secondary-color);
+    margin: 0;
+    line-height: 1.5;
+}
+
+/* Section Content Styles */
+.what, .helps, .types {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: -40px;
+}
+
+
+.what h2, .helps h2 , .types h2{
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+
+.content-box {
+    background-color: #f8f5f1;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 15px 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.content-box p {
+    color: var(--secondary-color);
+    line-height: 1.8;
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.content-box.with-image {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: center;
+    padding: 30px;
+}
+
+.content-box .image-container {
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.content-box .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.content-box .image-container img:hover {
+    transform: scale(1.05);
+}
+
+.content-box .text-container {
+    display: flex;
+    align-items: center;
+}
+
+/* Mobile Responsive */
+@media (max-width: 430px) {
+    .services-title {
+        font-size: 2rem;
+        padding: 90px 15px 30px 15px;
+    }
+
+    .bojin-grid {
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .bojin-card {
+        margin: 10px;
+    }
+    .section{
+        gap: 10px;
+    }
+    .treatment-list {
+        margin: 15px;
+    }
+
+    .treatment-list li {
+        padding: 15px 15px 15px 35px;
+        text-decoration: none;
+    }
+
+    .treatment-list li::before {
+        left: 15px;
+    }
+
+    .treatment-list h4 {
+        font-size: 1.1rem;
+    }
+
+    .treatment-list p {
+        font-size: 0.95rem;
+        text-align: left;
+    }
+
+    .what, .helps , .types{
+        padding: 30px 15px;
+    }
+
+    .what h2, .helps h2, .types h2{
+        font-size: 1.5rem;
+        text-align: center;
+        
+    }
+
+    .treatment-list .icon {
+        width: 80px;
+        height: 80px;
+        min-width: 24px;
+        object-fit: contain;
+    }
+
+   
+    .content-box {
+        padding-top: 10px;
+    }
+
+    .content-box p {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+}
+
+@media (max-width: 390px) {
+    .services-title {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 360px) {
+    .services-title {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .content-box.with-image {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .content-box .image-container {
+        height: 200px;
+    }
+} 
