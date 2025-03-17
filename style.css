@@ -146,6 +146,11 @@ header {
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
+    background-color: #f8f5f1;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 15px 15px 20px 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
 }
 
 .certificates-grid {
@@ -224,7 +229,6 @@ footer {
     justify-content: space-between;
     align-items: center;
     gap: 30px;
-    padding: 20px 0;
     
 }
 
@@ -410,6 +414,8 @@ footer {
         font-size: 13px;
     }
 
+    
+
 
 /* Small mobile devices */
 @media (max-width: 390px) {
@@ -498,9 +504,11 @@ footer {
         padding: 0 20px;
     }
 
+    
+
     .logopic {
         max-width: 200px;
-        margin: 0 auto;
+        margin-top:100px;
     }
 
     .background-content {
@@ -508,7 +516,6 @@ footer {
         line-height: 1.7;
         text-align: center;
         padding: 0 10px;
-        margin-top: 10px;
     }
 
     /* Who We Are section adjustments */
@@ -524,6 +531,8 @@ footer {
     .certificates-grid {
         gap: 10px;
         padding: 0 10px;
+
+        
     }
 
     .certificate {
@@ -541,11 +550,16 @@ footer {
     .value-props {
         flex-direction: column;
         gap: 12px;
-        padding: 15px;
+        margin-top: -15px;
+
+        background-color: #f8f5f1;
+        border-radius: 15px;
+        max-width: 100%;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
     }
 
     .value-item {
-        width: 100%;
+        width: 90%;
         font-size: 2rem;
         padding: 12px 15px;
     }
@@ -570,7 +584,29 @@ footer {
     }
 
     footer{
-        height: 550px;
+        height:280px;
+    }
+
+    .footer-title{
+        font-size: 1.8rem;
+    }
+
+    .poster{
+        max-width: 100%;
+        padding: 20px 20px 20px 20px;
+    }
+
+    .address{
+        font-size: 18px;
+        text-align: center;
+        margin-top: 20px;
+
+        
+       }
+
+    .who-container {
+        padding: 15px;
+        margin: 15px 15px;
     }
 }
 
@@ -782,10 +818,15 @@ footer {
 
 .who-container {
     display: flex;
-    flex-direction: column; /* Stack children vertically */
+    flex-direction: column;
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
+    background-color: #f8f5f1;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 15px 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
 }
 
 .certificates-grid {

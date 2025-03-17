@@ -52,8 +52,7 @@
 .services-title {
     font-size: 2.5rem;
     color: var(--primary-color);
-    text-align: center;
-    padding: 120px 20px 40px 20px; /* Increased top padding to account for fixed header */
+    text-align: center;/* Increased top padding to account for fixed header */
     margin: 0;
 }
 
@@ -105,16 +104,14 @@
         border-radius: 10px; /* Remove rounded corners if needed */
         padding: 30px 50px;
         
-        
     }
 
     .services-title{
         font-size: 2rem;
         color: var(--primary-color);
         text-align: center;
-        margin-top: -40px;
-        margin-bottom: 1%;
-        line-height: 1  ;
+        line-height: 1 ;
+        margin-top: 20px;
     }
 
     .price-list-button{
