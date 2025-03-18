@@ -190,6 +190,15 @@
         padding: 90px 15px 30px 15px;
     }
 
+    .text-container{
+        text-align: left;
+        color: #9b8579;
+    }
+
+    .text-container ul {
+        color: #9b8579;
+        margin-left: 20px;
+    }
     .bojin-grid {
         gap: 20px;
         padding: 10px;
